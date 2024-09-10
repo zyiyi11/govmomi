@@ -51,6 +51,7 @@ const (
 	VMX19
 	VMX20
 	VMX21
+	VMX22
 )
 
 const (
@@ -60,7 +61,7 @@ const (
 
 	// MaxValidHardwareVersion is the maximum, valid hardware version supported
 	// by VMware hypervisors in the wild.
-	MaxValidHardwareVersion = VMX21
+	MaxValidHardwareVersion = VMX22
 )
 
 // IsSupported returns true if the hardware version is known to and supported by
